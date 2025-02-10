@@ -1,0 +1,40 @@
+/* Set colors for the page */
+body{
+    background-color: rgb(152, 147, 147);
+    color: black; /* this is the font color*/
+}
+
+
+h1{
+    color: rgb(102, 12, 4);
+    font-family: 'Gill Sans';
+    font-size: larger;
+    text-align: center;
+}
+
+
+/* create styles for the h2 tag */
+h2{
+    color: red;
+    font-family: 'Gill Sans';
+}
+
+/* create styles for the h3 tag */
+h3{
+    text-align: center;
+    font-family: "Gill Sans";
+}
+
+/* create styles for the p tag */
+
+img{
+    width: 30%;
+    display: block;
+    margin: 10px auto;
+
+    /* this set of 3 commands centers. 10px is spacing top and bottom, auto is left and right*/
+
+}
+
+
+
