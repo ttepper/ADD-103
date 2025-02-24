@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: purple;
+    border: 2px solid purple;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+
+}
+
+nav a:hover{
+    color: purple;
+    background-color: white;
+}
+
+header{
+    margin-bottom: 50px;
+
+}
+
+header h1{
+    color: purple;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.container{
+    width: 80%;
+    border: 3px solid purple;  
+    margin: 20px auto;
+    overflow: auto;
+    padding: 15px;
+}
+
+.tblSpan, .tblStyles, .tblCal{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.tblSpan{
+    height: 400px;
+}
+
+.tblStyles, .tblCal{
+    border-collapse: collapse;
+}
+
+.tblStyles tr:hover{
+    background-color: burlywood;
+}
+
+.tblStyles td{
+    text-align: center;
+    min-height: 25px;
+    min-width: 80px;
+}
+
+.tblStyles th, .tblCal th{
+    background-color: cadetblue;
+    color: black; 
+    padding: 5px;
+}
+
+.tblStyles td,
+.tblSpan th, .tblSpan tr, .tblSpan td {
+    border: 1px solid black;
+}
+
+.tblCal td{
+    height: 70px;
+    text-align: right;
+    border: 1px solid cadetblue;
+    vertical-align: top;
+    font-weight: bold;
+    width: 14%;
+    padding-right: 2px;
+    padding-top: 2px;
+}
+
+h2{
+    text-align: center;
+}
+
+.weekend{
+    background-color: rgba(11, 34, 39, 0.8)
+
+}
