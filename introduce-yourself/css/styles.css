@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(59, 59, 59);
+}
+
+
+.div1{
+    width: 300px;
+    height: 150px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+h1{
+    font-family: Verdana;
+    text-align: center;
+    color:rgb(1, 0, 0);
+}
+
+header{
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid rgb(255, 255, 255);
+    background: rgba(106, 105, 105, 0.7);
+    overflow: auto;
+    padding: 20px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: blue;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    font-family: verdana;
+    margin: 40px;
+
+}
+
+nav a:hover{
+    color: black;
+    background-color: rgb(19, 198, 243);
+}
+
+img{
+    width: 400px;
+    height: auto;
+    margin: 150px;
+    margin-top: 10px;
+    border: 5px solid black;
+}
+
+.interest-img{
+    width: 900px;
+    height: auto;
+    margin: 150px;
+    margin-top: 80px;
+    margin-right: 200px;
+}
+
+.text-box{
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    width: 500px;
+    background-color: rgb(154, 154, 154);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Verdana;
+}
+
+.interest-box{
+    position: absolute;
+    top: 350px;  
+    left: 900px; 
+    width: 500px;
+    background-color: rgb(154, 154, 154);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Verdana;
+}
+
+h1{
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+
+.hobby-container{
+    display: flex;
+    justify-content: center;
+}
+
+.hobby-image{
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    border: 3px solid black;
+}
+
+.hobby-text-box{
+    width: 60%;
+    background-color: rgb(154, 154, 154);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    margin: 20px auto;
+}
+
+p{
+    font-family: Verdana;
+    text-align: center;
+}
+
+.about-text-box{
+    width: 80%;
+    background-color: rgb(154, 154, 154);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.about-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+.left-image img, .right-images img{
+    width: 350px;
+    height: 300px;
+    border: 3px solid black;
+}
+
+
+h3{
+    font-family: Verdana;
+    text-align: left;
+    color: black;
+}
+
+li{
+    text-align: left;
+    font-family: Verdana;
+    font-size: 18px;
+}
+
