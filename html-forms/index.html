@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h2>Quick Survey</h2>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Name" autofocus required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="you@gmail.com" required>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" value="18" size="10">
+    <label>How do you prefer to shop?</label>
+    <input type="radio" id="online" name="shop" value="online">
+    <label for="online">Online</label>
+    <input type="radio" id="instore" name="shop" value="instore">
+    <label for="instore">In Store</label>
+    <label for="comments">Any comments?</label>
+    <textarea id="comments" name="comments" rows="4" cols="30">No comments.</textarea>
+
+  </form>
+</body>
+</html>
