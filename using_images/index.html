@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using Images</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Using Images</h1>
+    </header>
+    <div class="background">
+      <h2>Background Image</h2>
+    </div>
+    <div class="img-map">
+      <h2>Image Map</h2>
+
+      <img src="images/workplace.jpg" alt="Workplace" usemap="#worldmap" />
+      <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" />
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm" />
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" />
+      </map>
+    </div>
+    <div class="float-left">
+      <h2>Float Left</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consequatur eius corporis veniam dicta sunt iste quidem velit suscipit deleniti facilis, soluta ipsam autem cumque sapiente harum libero sint error?</p>
+      <img src="images/bicycle.jpg" alt="Bike">
+    </div>
+    <div class="float-right">
+      <h2>Float Right</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consequatur eius corporis veniam dicta sunt iste quidem velit suscipit deleniti facilis, soluta ipsam autem cumque sapiente harum libero sint error?</p>
+      <img src="images/dogs.jpg" alt="Dog">
+    </div>
+    <div class="picture-tag">
+      <h2>Picture Tag</h2>
+      <picture>
+        <source media="(min-width: 650px)" srcset="images/dogs.jpg" />
+        <source media="(min-width: 465px)" srcset="images/cat.jpg" />
+        <img src="images/workplace.jpg">
+      </picture>
+    </div>
+    <div class="linked-image">
+      <h2>Linked Image</h2>
+      <img src="https://media.4-paws.org/0/c/7/e/0c7e157aabf6ef2f316c05607813b130c994f293/VIER%20PFOTEN_2019-03-15_001-2886x1999.jpg" alt="Puppy">
+    </div>
+    <div class="img-as-link">
+      <h2>Image As Link</h2>
+      <a href="https://www.google.com"><img src="images/workplace.jpg" alt="PH"></a>
+    </div>
+  </body>
+</html>
